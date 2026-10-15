@@ -5,9 +5,9 @@ public class Ejemplo9 {
        int impr=0;
        for (int i=0; i<pi.length ;i++){
            if(pi[i]%2==0){
-               par++;
+               par+=pi[i];
            }else{
-               impr++;
+               impr+=pi[i];
            }
 
        }
