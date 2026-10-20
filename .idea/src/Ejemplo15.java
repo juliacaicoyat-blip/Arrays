@@ -4,7 +4,7 @@ public class Ejemplo15 {
         int[]num2={9,8,7,6,5,4,3,2,1};
         for (int i = 0; i < num.length; i++) {
             for (int j = 0; j < num2.length; j++) {
-                if(num1==num2){
+                if(num==num2){
 
                 }
 
