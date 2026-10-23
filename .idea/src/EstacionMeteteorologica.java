@@ -23,7 +23,7 @@ public class EstacionMeteteorologica {
 
         for (int i = 0; i < temperaturas.length; i++) {
             // Ahora en sumaTemperaturas has de sumar la temperatura del día `i`
-            sumaTemperaturas+=temperaturas[j];
+            sumaTemperaturas+=temperaturas[i];
         }
 
         System.out.println("media"+sumaTemperaturas/7+"ª");
