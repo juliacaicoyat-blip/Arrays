@@ -8,7 +8,6 @@ public class EstacionMeteteorologica {
         for (int i = 0; i < temperaturas.length; i++) {
             System.out.println("w"+temperaturas[i]);
 
-
             do {
                 temperaturas[i]=d.nextDouble();
 
@@ -79,15 +78,19 @@ public class EstacionMeteteorologica {
 
         }
         System.out.println("Mayor"+"de"+dias[pos]+"a"+dias[pos+1]+"("+MayorSubida+"ªC)");
-        String grafico="-";
 
-        for (int i = 0; i <temperaturas.length ; i++) {
-            if (temperaturas){
+        //grafico
+        for (int i = 0; i <dias.length ; i++) {
+            System.out.println(dias[i]+" ");
+            for (int j = 0; j < temperaturas[i]; j++) {
+                System.out.println("*");
 
             }
+            System.out.println();
 
 
         }
+        //este codigo es tirando a largo
 
 
 
